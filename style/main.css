@@ -1,0 +1,11 @@
+.main-section1 {
+    background-color: rgb(166, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+.hero-heading {
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
