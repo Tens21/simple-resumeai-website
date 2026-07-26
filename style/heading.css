@@ -22,7 +22,7 @@ nav ul {
 
 .header {
     display: flex;
-    background-color: rgb(142, 202, 255);
+    background-color: rgb(177, 217, 252);
     justify-content: space-between;
     height: 70px;
     width: auto;
@@ -51,5 +51,5 @@ nav ul {
     border: 0;
 }
 header div span {
-    color: rgb(218, 142, 3);
+    color: rgb(13, 162, 255);
 }
