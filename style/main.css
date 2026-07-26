@@ -24,3 +24,46 @@ img {
     font-size: 20px;
     margin-bottom: 15px;
 }
+.section2-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.section2-layout div {
+    background-color: rgb(224, 224, 224);
+    border: 3px solid ;
+    border-color: #d8dfe7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+.each-box1 {
+    margin-right: 50px;
+    display: flex;
+}
+.each-box2 {
+    margin-left: 50px;
+}
+
+.section2-layout div h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section2-layout div p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.for-now{
+    height: 50px;
+    background-color: blue;
+    margin-top: 60px;
+}
