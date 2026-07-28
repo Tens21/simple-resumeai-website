@@ -30,7 +30,7 @@ img {
     align-items: center;
     margin-top: 40px;
 }
-.section2-layout div {
+.same-style {
     background-color: rgb(224, 224, 224);
     border: 3px solid ;
     border-color: #d8dfe7;
@@ -66,4 +66,15 @@ img {
     height: 50px;
     background-color: blue;
     margin-top: 60px;
+}
+
+.svg-text-alignment {
+    display: flex;
+    justify-content: center;
+}
+
+.svg-text-alignment svg {
+    height: 40px;
+    width: 40px;
+    flex: auto;
 }
