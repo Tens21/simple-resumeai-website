@@ -1,5 +1,4 @@
 .main-section1 {
-    background-color: #2d3748;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +9,7 @@
 }
 .hero-heading {
     margin-bottom: 10px;
-    font-size: 2.8rem;
+    font-size: clamp(1.5rem, 2.8rem, 3.5rem);
 }
 img {
     height: 300px;
@@ -31,16 +30,16 @@ img {
     margin-top: 40px;
 }
 .same-style {
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(225, 225, 225);
     border: 3px solid ;
-    border-color: #d8dfe7;
-    border-radius: 10px;
+    border-color: #e5e7eb;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100px;
     padding: 20px;
-    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    box-shadow: 0px 1px 4px rgb(0, 0, 0);
 }
 .each-box1 {
     margin-right: 50px;
@@ -62,11 +61,6 @@ img {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.for-now{
-    height: 50px;
-    background-color: blue;
-    margin-top: 60px;
-}
 
 .svg-text-alignment {
     display: flex;
@@ -77,4 +71,27 @@ img {
     height: 40px;
     width: 40px;
     flex: auto;
+}
+.for-now{
+    height: 270px;
+    background-color: #01295e;
+    margin-top: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.for-now div {
+    display: flex;
+    margin-top: 10px;
+}
+
+#inputs {
+    width: 20rem;
+    margin-right: 15px;
+    border-radius: 7px;
+    padding: 10px;
 }
