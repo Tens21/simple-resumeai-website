@@ -30,16 +30,16 @@ img {
     margin-top: 40px;
 }
 .same-style {
-    background-color: rgb(225, 225, 225);
+    background-color: white;
     border: 3px solid ;
-    border-color: #e5e7eb;
+    border-color: rgb(229, 231, 235);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100px;
-    padding: 20px;
-    box-shadow: 0px 1px 4px rgb(0, 0, 0);
+    height: 150px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0)
 }
 .each-box1 {
     margin-right: 50px;
@@ -49,16 +49,25 @@ img {
     margin-left: 50px;
 }
 
+/* .same-style p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 80px;
+    font-weight: 700;
+
+} */
+
 .section2-layout div h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 9px;
+    margin-bottom: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .section2-layout div p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 80px;
+    font-weight: 700;
 }
 
 
