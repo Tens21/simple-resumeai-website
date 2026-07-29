@@ -81,7 +81,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
 }
 
 .for-now div {
@@ -94,4 +93,48 @@ img {
     margin-right: 15px;
     border-radius: 7px;
     padding: 10px;
+}
+footer {
+    background-color: white;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div h3 {
+    margin-bottom: 15px;
+    margin-left: 80px;
+}
+.text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 80px;
+    font-weight: 700;
+}
+.logo-and-text {
+    margin-right: 80px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 40px;
+}
+
+.social-links svg{
+    font-size: 28px;
+    height: 28px;
+    width: 28px;
+}
+
+#to-give-margin {
+    margin-left: 20px;
+}
+
+.the-two-texts {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
 }
